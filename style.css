@@ -1,0 +1,167 @@
+*{
+
+    margin: 0;
+    padding: 0;
+
+}
+
+.nav-item{
+
+    margin: 0 1rem;
+
+}
+
+.margin-logo{
+
+    margin: 0 0 0 1rem;
+
+}
+
+.backgorund-color-black{
+
+    background-color: black;
+    color: white;
+    height: 40vw;
+    display: flex;
+    align-items: center;
+
+}
+
+.flex-perfil{
+
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: justify;
+
+}
+
+.carousel-item img {
+    object-fit:cover;
+    top: 0;
+    left: 0;
+    max-height: 91vh;
+}
+
+h1{
+
+    font-size: 3rem;
+
+}
+
+.PreguntasF{
+
+    text-align: center;
+
+}
+
+.Espacio-blanco{
+
+    height: 40px;
+
+}
+
+.container-footer li{
+
+    list-style: none;
+    text-align: center;
+
+}
+
+.container-footer ul{
+
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    
+
+}
+
+.footer-empresarial{
+
+    margin-top: 20px;
+    
+
+}
+
+/* ------------------------------RESPONSIVE -------------------------- */
+
+/* MOBILE 1 */
+@media only screen and (max-width:766px) {
+
+    .title-size{
+
+        font-size: 2rem;
+        text-align: center;
+        /* border: 2px solid red; */
+        font-weight: 600;
+
+    }
+
+    .paragraph-size{
+
+        font-size: 1rem;
+        text-align: justify;
+
+    }
+
+    .row img{
+
+        display: none;
+
+    }
+
+    .flex-perfil{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+
+    }
+
+
+.PreguntasF{
+
+    font-size: 2rem;
+    /* border: 2px solid red; */
+    font-weight: 600;
+
+}
+
+
+}
+
+/* tablet */
+@media (min-width:767px) and (max-width:991px) {
+
+    .title-size{
+
+        font-size: 2rem;
+
+    }
+
+    .paragraph-size{
+
+        font-size: 1rem;
+
+    }
+
+    .PreguntasF{
+
+        font-size: 2.2rem;
+        /* border: 2px solid red; */
+        font-weight: 600;
+
+    }
+
+}
+
+/* -------------------CONTENEDOR IMAGEN Y TEXTO----------------- */
+
